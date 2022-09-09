@@ -1,5 +1,2 @@
-led.toggle(1, 2)
-music.playMelody("- C5 C5 B A G F - ", 120)
-basic.forever(function () {
-	
-})
+Kitronik_Move_Motor.beepHorn()
+Kitronik_Move_Motor.move(Kitronik_Move_Motor.DriveDirections.Forward, 62)
